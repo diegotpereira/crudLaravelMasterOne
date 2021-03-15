@@ -1,6 +1,6 @@
 @extends('coronas.layout')
 
-@section('title',__('Corona (CRUD Laravel) - i9W3b'))
+@section('title',__('Corona (CRUD Laravel)'))
 
 @push('css')
 <style>
@@ -15,7 +15,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex justify-content-between w-100">
-                        <span>@lang('Corona (CRUD Laravel) - i9W3b')</span>
+                        <span>@lang('Corona (CRUD Laravel)')</span>
                         <a href="{{ url('coronas/create') }}" class="btn-primary btn-sm">
                             <i class="fa fa-plus"></i> @lang('Criar Novo')
                         </a>
